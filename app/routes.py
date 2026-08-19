@@ -30,8 +30,10 @@ def with_session(handler: Callable[..., Any]):
         return json_result(status=409, message="duplicate record", errors=["record already exists"])
     except services.ResourceNotFoundError as exc:
         return not_found(exc.resource)
-    except ValueError as exc:
-        return json_result(status=400, message="invalid request", errors=[str(exc)])
+    except ValueError:
+        return json_result(
+            status=400, message="invalid request", errors=["request could not be processed"]
+        )
 
 
 @bp.get("/")
