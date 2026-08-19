@@ -1,4 +1,4 @@
-# Contoso Customer Portal
+Contoso Customer Portal
 
 > Repositorio de demostración para cursos **GitHub Foundations GH-900**. Todos los datos, empresas, correos, teléfonos, direcciones, órdenes e incidentes son completamente ficticios.
 
