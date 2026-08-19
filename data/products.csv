@@ -1,0 +1,51 @@
+id,name,category,price,status,description
+1,Contoso CRM 01,SaaS,195.99,retired,Producto ficticio Contoso CRM para laboratorios GH-900.
+2,Contoso Analytics 02,SaaS,248.99,active,Producto ficticio Contoso Analytics para laboratorios GH-900.
+3,Contoso ERP 03,Data,691.99,retired,Producto ficticio Contoso ERP para laboratorios GH-900.
+4,Contoso SecureMail 04,Productivity,23.99,active,Producto ficticio Contoso SecureMail para laboratorios GH-900.
+5,Contoso AI Assistant 05,Security,242.99,preview,Producto ficticio Contoso AI Assistant para laboratorios GH-900.
+6,Contoso Cloud Backup 06,Security,381.99,retired,Producto ficticio Contoso Cloud Backup para laboratorios GH-900.
+7,Contoso Collaboration Hub 07,AI,52.99,active,Producto ficticio Contoso Collaboration Hub para laboratorios GH-900.
+8,Contoso Identity Manager 08,AI,679.99,preview,Producto ficticio Contoso Identity Manager para laboratorios GH-900.
+9,Contoso Security Center 09,SaaS,490.99,retired,Producto ficticio Contoso Security Center para laboratorios GH-900.
+10,Contoso Data Platform 10,Data,821.99,active,Producto ficticio Contoso Data Platform para laboratorios GH-900.
+11,Contoso CRM 11,Data,340.99,preview,Producto ficticio Contoso CRM para laboratorios GH-900.
+12,Contoso Analytics 12,AI,535.99,retired,Producto ficticio Contoso Analytics para laboratorios GH-900.
+13,Contoso ERP 13,Security,767.99,active,Producto ficticio Contoso ERP para laboratorios GH-900.
+14,Contoso SecureMail 14,SaaS,102.99,retired,Producto ficticio Contoso SecureMail para laboratorios GH-900.
+15,Contoso AI Assistant 15,AI,899.99,preview,Producto ficticio Contoso AI Assistant para laboratorios GH-900.
+16,Contoso Cloud Backup 16,SaaS,281.99,active,Producto ficticio Contoso Cloud Backup para laboratorios GH-900.
+17,Contoso Collaboration Hub 17,Security,245.99,retired,Producto ficticio Contoso Collaboration Hub para laboratorios GH-900.
+18,Contoso Identity Manager 18,AI,289.99,preview,Producto ficticio Contoso Identity Manager para laboratorios GH-900.
+19,Contoso Security Center 19,Security,158.99,preview,Producto ficticio Contoso Security Center para laboratorios GH-900.
+20,Contoso Data Platform 20,SaaS,284.99,active,Producto ficticio Contoso Data Platform para laboratorios GH-900.
+21,Contoso CRM 21,AI,231.99,active,Producto ficticio Contoso CRM para laboratorios GH-900.
+22,Contoso Analytics 22,Security,578.99,preview,Producto ficticio Contoso Analytics para laboratorios GH-900.
+23,Contoso ERP 23,Productivity,215.99,preview,Producto ficticio Contoso ERP para laboratorios GH-900.
+24,Contoso SecureMail 24,SaaS,241.99,active,Producto ficticio Contoso SecureMail para laboratorios GH-900.
+25,Contoso AI Assistant 25,AI,685.99,preview,Producto ficticio Contoso AI Assistant para laboratorios GH-900.
+26,Contoso Cloud Backup 26,Data,535.99,active,Producto ficticio Contoso Cloud Backup para laboratorios GH-900.
+27,Contoso Collaboration Hub 27,SaaS,111.99,active,Producto ficticio Contoso Collaboration Hub para laboratorios GH-900.
+28,Contoso Identity Manager 28,Security,705.99,active,Producto ficticio Contoso Identity Manager para laboratorios GH-900.
+29,Contoso Security Center 29,Productivity,844.99,active,Producto ficticio Contoso Security Center para laboratorios GH-900.
+30,Contoso Data Platform 30,Data,230.99,retired,Producto ficticio Contoso Data Platform para laboratorios GH-900.
+31,Contoso CRM 31,Data,870.99,retired,Producto ficticio Contoso CRM para laboratorios GH-900.
+32,Contoso Analytics 32,Productivity,125.99,preview,Producto ficticio Contoso Analytics para laboratorios GH-900.
+33,Contoso ERP 33,Security,791.99,retired,Producto ficticio Contoso ERP para laboratorios GH-900.
+34,Contoso SecureMail 34,Security,709.99,preview,Producto ficticio Contoso SecureMail para laboratorios GH-900.
+35,Contoso AI Assistant 35,Security,67.99,preview,Producto ficticio Contoso AI Assistant para laboratorios GH-900.
+36,Contoso Cloud Backup 36,SaaS,380.99,retired,Producto ficticio Contoso Cloud Backup para laboratorios GH-900.
+37,Contoso Collaboration Hub 37,AI,672.99,retired,Producto ficticio Contoso Collaboration Hub para laboratorios GH-900.
+38,Contoso Identity Manager 38,Security,760.99,retired,Producto ficticio Contoso Identity Manager para laboratorios GH-900.
+39,Contoso Security Center 39,SaaS,127.99,retired,Producto ficticio Contoso Security Center para laboratorios GH-900.
+40,Contoso Data Platform 40,AI,654.99,preview,Producto ficticio Contoso Data Platform para laboratorios GH-900.
+41,Contoso CRM 41,AI,707.99,retired,Producto ficticio Contoso CRM para laboratorios GH-900.
+42,Contoso Analytics 42,Productivity,614.99,retired,Producto ficticio Contoso Analytics para laboratorios GH-900.
+43,Contoso ERP 43,AI,480.99,retired,Producto ficticio Contoso ERP para laboratorios GH-900.
+44,Contoso SecureMail 44,AI,765.99,preview,Producto ficticio Contoso SecureMail para laboratorios GH-900.
+45,Contoso AI Assistant 45,SaaS,356.99,retired,Producto ficticio Contoso AI Assistant para laboratorios GH-900.
+46,Contoso Cloud Backup 46,Productivity,274.99,preview,Producto ficticio Contoso Cloud Backup para laboratorios GH-900.
+47,Contoso Collaboration Hub 47,Data,569.99,preview,Producto ficticio Contoso Collaboration Hub para laboratorios GH-900.
+48,Contoso Identity Manager 48,Security,442.99,retired,Producto ficticio Contoso Identity Manager para laboratorios GH-900.
+49,Contoso Security Center 49,Productivity,182.99,preview,Producto ficticio Contoso Security Center para laboratorios GH-900.
+50,Contoso Data Platform 50,SaaS,563.99,preview,Producto ficticio Contoso Data Platform para laboratorios GH-900.

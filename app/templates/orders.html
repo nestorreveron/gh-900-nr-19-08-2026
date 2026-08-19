@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Órdenes | Contoso Customer Portal{% endblock %}
+{% block content %}
+<section class="hero">
+  <h1>Órdenes</h1>
+  <p>Registra y consulta órdenes ficticias para practicar APIs y pruebas.</p>
+  <button data-endpoint="/api/dashboard" class="demo-button">Probar API dashboard</button>
+</section>
+<section class="card-grid">
+  <article><h2>GitHub Flow</h2><p>Crear branch, commits pequeños, pull request y merge.</p></article>
+  <article><h2>Copilot</h2><p>Explicar código, generar pruebas y revisar cambios.</p></article>
+  <article><h2>Actions</h2><p>Linting, pruebas, CodeQL, Pages y releases.</p></article>
+</section>
+<pre id="api-output" aria-live="polite"></pre>
+{% endblock %}

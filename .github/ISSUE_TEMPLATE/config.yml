@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Preguntas de soporte
+    url: https://github.com/nestorreveron/gh-900-nr-19-08-2026/discussions
+    about: Usa Discussions conceptualmente si está habilitado para preguntas generales.

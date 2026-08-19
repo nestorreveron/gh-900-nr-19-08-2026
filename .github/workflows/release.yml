@@ -1,0 +1,24 @@
+name: Release artifact
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build training artifact
+        run: |
+          mkdir -p dist
+          git archive --format=zip --output dist/contoso-customer-portal-${GITHUB_REF_NAME}.zip HEAD
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: contoso-customer-portal-${{ github.ref_name }}
+          path: dist/*.zip
