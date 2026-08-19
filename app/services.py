@@ -12,6 +12,12 @@ VALID_TICKET_STATUSES = {"open", "in_progress", "resolved", "closed"}
 VALID_PRIORITIES = {"low", "medium", "high", "critical"}
 
 
+class ResourceNotFoundError(Exception):
+    def __init__(self, resource: str) -> None:
+        self.resource = resource
+        super().__init__(f"{resource} not found")
+
+
 def response(
     data: Any = None, message: str = "ok", errors: list[str] | None = None
 ) -> dict[str, Any]:
@@ -237,7 +243,7 @@ def update_ticket_status(
         .where(SupportTicket.id == ticket_id)
     ).first()
     if ticket is None:
-        return None, ["ticket was not found"]
+        raise ResourceNotFoundError("ticket")
     ticket.status = status
     session.flush()
     return ticket_to_dict(ticket), []

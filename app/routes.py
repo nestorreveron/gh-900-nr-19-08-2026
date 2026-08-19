@@ -28,6 +28,8 @@ def with_session(handler: Callable[..., Any]):
             return handler(session)
     except IntegrityError:
         return json_result(status=409, message="duplicate record", errors=["record already exists"])
+    except services.ResourceNotFoundError as exc:
+        return not_found(exc.resource)
     except ValueError as exc:
         return json_result(status=400, message="invalid request", errors=[str(exc)])
 
@@ -178,8 +180,6 @@ def api_update_ticket(ticket_id: int):
 
     def handler(session):
         ticket, errors = services.update_ticket_status(session, ticket_id, payload)
-        if errors and errors == ["ticket was not found"]:
-            return not_found("ticket")
         return json_result(ticket) if not errors else json_result(status=400, errors=errors)
 
     return with_session(handler)
