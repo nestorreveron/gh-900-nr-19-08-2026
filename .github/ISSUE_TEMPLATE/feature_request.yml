@@ -1,0 +1,16 @@
+name: Feature request
+description: Propón una funcionalidad educativa.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: Problema u oportunidad}
+    validations: {required: true}
+  - type: textarea
+    id: proposal
+    attributes: {label: Propuesta}
+    validations: {required: true}
+  - type: textarea
+    id: acceptance
+    attributes: {label: Criterios de aceptación}

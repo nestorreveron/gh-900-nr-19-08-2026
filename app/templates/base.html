@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Contoso Customer Portal{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">Contoso Customer Portal</a>
+    <nav aria-label="Navegación principal">
+      <a href="/customers">Clientes</a>
+      <a href="/products">Productos</a>
+      <a href="/orders">Órdenes</a>
+      <a href="/support">Soporte</a>
+      <a href="/dashboard">Dashboard</a>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="notice">Todos los datos son ficticios y se usan solo para capacitación GH-900.</div>
+    {% block content %}{% endblock %}
+  </main>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

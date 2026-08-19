@@ -1,0 +1,5 @@
+# Fictitious owners for GH-900 demonstrations. Replace with real teams in production.
+* @contoso-training/platform-team
+/docs/ @contoso-training/docs-team
+/.github/ @contoso-training/repository-admins
+/app/ @contoso-training/backend-team
